@@ -5,7 +5,7 @@ Feature: Feature related to applying tags
 #Scenario : Used for defining a scenario without any multiple dynamic variables.
 
 	Scenario: Ensure tag is set on Azure Resources
-		Given I have azurerm_storage_account defined
+	Given I have azurerm_storage_account defined
         Then it must contain tags
         And its value must not be null
 
