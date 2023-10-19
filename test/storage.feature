@@ -20,3 +20,10 @@ Feature: Feature related to Storage Accounts
 		Then it must have cross_tenant_replication_enabled
 		And its value must be false
 
+
+# Scenario Flow
+# GIVEN sets the context, while WHEN and THEN narrows the context
+
+# GIVEN step must be used to set the initial context.
+# WHEN steps evaluate their condition and decide to pass or not. If the condition doesn’t pass, it skips instead of failing.
+# THEN also evaluates its condition and decides to pass or not. However if the condition doesn’t pass, the scenario is failed.
