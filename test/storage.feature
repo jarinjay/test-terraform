@@ -1,3 +1,6 @@
+# Feature draws the overall picture of the feature file that may consist several scenarios
+# Scenario will define a test that might include multiple steps with BDD directives
+
 Feature: Feature related to Storage Accounts
 
 	related_resources: azurerm_storage_account
@@ -16,3 +19,4 @@ Feature: Feature related to Storage Accounts
 		Given I have azurerm_storage_account defined
 		Then it must have cross_tenant_replication_enabled
 		And its value must be false
+
